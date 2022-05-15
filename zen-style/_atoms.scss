@@ -25,29 +25,32 @@
 }
 // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
 h2,
-h3,
-h4 {
+h3 {
   font-family: $fonts-headline;
   margin: 0;
 }
 h1 {
-  background: $accent1;
-  color: $text-light;
-  display: inline-block;
-  font-weight: normal;
-  margin-bottom: 1em;
-  padding: 0.5em 1em;
-}
-h2 {
-  color: $text-light;
+  font-family: $fonts-headline;
   font-weight: 900; /* Heavy */
   font-size: 6em;
+  color: $fish;
+  display: inline-block;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1em;
+  
+}
+h2 {
+  color: $accent2;
+  font-weight: 900; /* Heavy */
+  font-size: 5em;
   letter-spacing: 1px;
   line-height: 1em;
 }
 h3 {
+  font-family: $fonts-body;
   font-size: 2.25em;
-  font-weight: 200; /* Thin */
+  font-weight: 400; 
   letter-spacing: 1px;
   line-height: 1em;
   padding: 0.5em 0 0.25em 0;
