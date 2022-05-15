@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat:wght@200;300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #adddf0;
+  padding: 5%;
+}
+
+body {
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 85%;
+  color: #eea14e;
+  background-color: #448CAB;
+  margin: 0;
+  padding: 1em;
+}/*# sourceMappingURL=style.css.map */
