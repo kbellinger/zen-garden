@@ -1,5 +1,9 @@
-$background-color: #adddf0;
+$background-color: #d2eaf3;
+$secondary:#044C6A;
+$third-color:#04364F;
+
 
 body{
-    background-color: #adddf0;
+    background-color: $background-color;
+    background-image: linear-gradient($background-color, $secondary);
 }
