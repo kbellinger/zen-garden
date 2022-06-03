@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat:wght@200;300;400;500&display=swap');
+
+$fonts-headline: "Boogaloo", Arial, sans-serif;
+$fonts-body: "Montserrat", arial, sans-serif;
+$background-color: #adddf0;
+$primary: #519cbb;
+$secondary:#044C6A;
+$third-color:#04364F;
+$accent1: #DeccA0;
+$accent2: #Edeeee;
+$fish: #eea14e;
+// $grey-sidebar: rgba(51, 55, 69, 0.9);
+$text-dark: #333;
+$text-light: #fff;
+
 //main text styles
 
 h2,
@@ -40,7 +55,7 @@ h4 {
 }
 
 p {
-  @include set-font(1em, 1.5em);
+//   @include set-font(1em, 1.5em);
   padding: 0.5em 0;
   margin: 0;
 }
