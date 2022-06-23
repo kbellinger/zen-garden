@@ -1,9 +1,10 @@
 @use 'variables' as *; /* allows you to you the names of the variables. */
 @use 'atoms/background'; /* adds background gradient */
 @use 'atoms/typography';
+@use 'molecules/bubbles';
 // @use 'molecules/grid'; /* contains mulitple grid options as mixins */
 
-body > div{
+body > div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 25%, repeat(4, 1fr), 10%;

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat:wght@200;300;400;500&display=swap");
+
+$fonts-headline: "Boogaloo", Arial, sans-serif;
+$fonts-body: "Montserrat", arial, sans-serif;
+$primary: #519cbb;
+$background-color: #adddf0;
+$secondary: #044c6a;
+$third-color: #04364f;
+$accent1: #decca0;
+$accent2: #edeeee;
+$fish: #eea14e;
+// $grey-sidebar: rgba(51, 55, 69, 0.9);
+$text-dark: #333;
+$text-light: #fff;
+
+.design-selection {
+    background-color: $background-color;
+    border-radius: 200px;
+    text-align: center;
+    margin-right: 5px;
+    padding-bottom: 40px;
+
+    &ul,
+    li {
+        list-style: none;
+        padding-top: 5px;
+        padding-right: 10px;
+    }
+}
+.select {
+    padding: 60px 60px 0 60px;
+}
+
+.design-archives {
+    background-color: $background-color;
+    width: 250px;
+    border-radius: 200px;
+    text-align: center;
+    margin-right: 5px;
+    padding-bottom: 60px;
+    padding-top: 45px;
+    margin-top: 10px;
+
+    &ul,
+    li {
+        list-style: none;
+        padding-top: 5px;
+        padding-right: 20px;
+    }
+}
+.zen-resources {
+    background-color: $background-color;
+    width: 250px;
+    border-radius: 200px;
+    text-align: center;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+
+    &ul,
+    li {
+        list-style: none;
+        padding-top: 5px;
+        padding-right: 30px;
+    }
+}
