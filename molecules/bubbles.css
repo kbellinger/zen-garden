@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat:wght@200;300;400;500&display=swap");
 .design-selection {
-  background-color: #adddf0;
+  background: rgb(234, 251, 255);
+  background: radial-gradient(circle, rgb(234, 251, 255) 6%, rgba(136, 168, 216, 0.4234068627) 54%, rgba(218, 149, 218, 0.2637429972) 63%, rgba(234, 251, 255, 0.9332107843) 80%);
   border-radius: 200px;
   text-align: center;
   margin-right: 5px;
@@ -18,7 +19,8 @@
 }
 
 .design-archives {
-  background-color: #adddf0;
+  background: rgb(234, 251, 255);
+  background: radial-gradient(circle, rgb(234, 251, 255) 6%, rgba(136, 168, 216, 0.4234068627) 54%, rgba(218, 149, 218, 0.2637429972) 63%, rgba(234, 251, 255, 0.9332107843) 80%);
   width: 250px;
   border-radius: 200px;
   text-align: center;
@@ -35,7 +37,8 @@
 }
 
 .zen-resources {
-  background-color: #adddf0;
+  background: rgb(234, 251, 255);
+  background: radial-gradient(circle, rgb(234, 251, 255) 6%, rgba(136, 168, 216, 0.4234068627) 54%, rgba(218, 149, 218, 0.2637429972) 63%, rgba(234, 251, 255, 0.9332107843) 80%);
   width: 250px;
   border-radius: 200px;
   text-align: center;
