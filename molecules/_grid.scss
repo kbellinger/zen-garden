@@ -1,7 +1,7 @@
 @mixin large-body-grid(){
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 25%, repeat(4, 1fr), 10%;
+    grid-template-rows: 25% repeat(4, 1fr) 10%;
 }
 
 @mixin small-body-grid(){
