@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat:wght@200;300;400;500&display=swap");
 body {
   background-color: #d2eaf3;
   background-image: linear-gradient(#d2eaf3, #519cbb, #044C6A);
@@ -64,6 +65,15 @@ a:hover {
   border-color: #DeccA0;
 }
 
+.design-selection {
+  background-color: #adddf0;
+  height: 300px;
+  position: relative;
+  width: 300px;
+  height: 100%;
+  width: 100%;
+}
+
 /* allows you to you the names of the variables. */
 /* adds background gradient */
 body > div {
@@ -83,6 +93,4 @@ body > div {
 
 .footer {
   grid-row: 6/7;
-}
-
-/*# sourceMappingURL=main-styles.css.map */
+}/*# sourceMappingURL=main-styles.css.map */
