@@ -66,12 +66,68 @@ a:hover {
 }
 
 .design-selection {
-  background-color: #adddf0;
-  height: 300px;
-  position: relative;
-  width: 300px;
-  height: 100%;
+  background: rgb(234, 251, 255);
+  background: radial-gradient(circle, rgb(234, 251, 255) 6%, rgba(136, 168, 216, 0.4234068627) 54%, rgba(218, 149, 218, 0.2637429972) 63%, rgba(234, 251, 255, 0.9332107843) 80%);
+  border-radius: 200px;
+  text-align: center;
+  margin-right: 5px;
+  padding-bottom: 40px;
+}
+.design-selectionul,
+.design-selection li {
+  list-style: none;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.select {
+  padding: 60px 60px 0 60px;
+}
+
+.design-archives {
+  background: rgb(234, 251, 255);
+  background: radial-gradient(circle, rgb(234, 251, 255) 6%, rgba(136, 168, 216, 0.4234068627) 54%, rgba(218, 149, 218, 0.2637429972) 63%, rgba(234, 251, 255, 0.9332107843) 80%);
+  width: 250px;
+  border-radius: 200px;
+  text-align: center;
+  margin-right: 5px;
+  padding-bottom: 60px;
+  padding-top: 45px;
+  margin-top: 10px;
+}
+.design-archivesul,
+.design-archives li {
+  list-style: none;
+  padding-top: 5px;
+  padding-right: 20px;
+}
+
+.zen-resources {
+  background: rgb(234, 251, 255);
+  background: radial-gradient(circle, rgb(234, 251, 255) 6%, rgba(136, 168, 216, 0.4234068627) 54%, rgba(218, 149, 218, 0.2637429972) 63%, rgba(234, 251, 255, 0.9332107843) 80%);
+  width: 250px;
+  border-radius: 200px;
+  text-align: center;
+  margin-left: 50px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+.zen-resourcesul,
+.zen-resources li {
+  list-style: none;
+  padding-top: 5px;
+  padding-right: 30px;
+}
+
+footer {
+  background: rgb(240, 217, 173);
+  background: linear-gradient(rgb(240, 217, 173) 21%, rgb(154, 129, 80) 87%);
   width: 100%;
+  margin: auto;
+  padding: 25px;
 }
 
 /* allows you to you the names of the variables. */

@@ -14,7 +14,28 @@ $text-dark: #333;
 $text-light: #fff;
 
 .design-selection {
-    background-color: $background-color;
+    background: rgb(234, 251, 255);
+    background: radial-gradient(
+        circle,
+        rgba(234, 251, 255, 1) 6%,
+        rgba(136, 168, 216, 0.4234068627450981) 54%,
+        rgba(218, 149, 218, 0.2637429971988795) 63%,
+        rgba(234, 251, 255, 0.9332107843137255) 80%
+    );
+    // background: rgb(205, 241, 251);
+    // background: radial-gradient(
+    //     circle,
+    //     rgba(205, 241, 251, 0.5816701680672269) 21%,
+    //     rgba(89, 169, 195, 0.5984768907563025) 68%,
+    //     rgba(234, 251, 255, 0.7973564425770308) 97%
+    // );
+    // background: rgb(245, 252, 255);
+    // background: radial-gradient(
+    //     circle,
+    //     rgba(245, 252, 255, 0.9150253851540616) 44%,
+    //     rgba(173, 221, 240, 1) 74%,
+    //     rgba(245, 252, 255, 1) 100%
+    // );
     border-radius: 200px;
     text-align: center;
     margin-right: 5px;
@@ -32,7 +53,21 @@ $text-light: #fff;
 }
 
 .design-archives {
-    background-color: $background-color;
+    background: rgb(234, 251, 255);
+    background: radial-gradient(
+        circle,
+        rgba(234, 251, 255, 1) 6%,
+        rgba(136, 168, 216, 0.4234068627450981) 54%,
+        rgba(218, 149, 218, 0.2637429971988795) 63%,
+        rgba(234, 251, 255, 0.9332107843137255) 80%
+    );
+    // background: rgb(245, 252, 255);
+    // background: radial-gradient(
+    //     circle,
+    //     rgba(245, 252, 255, 0.9150253851540616) 44%,
+    //     rgba(173, 221, 240, 1) 74%,
+    //     rgba(245, 252, 255, 1) 100%
+    // );
     width: 250px;
     border-radius: 200px;
     text-align: center;
@@ -49,7 +84,21 @@ $text-light: #fff;
     }
 }
 .zen-resources {
-    background-color: $background-color;
+    background: rgb(234, 251, 255);
+    background: radial-gradient(
+        circle,
+        rgba(234, 251, 255, 1) 6%,
+        rgba(136, 168, 216, 0.4234068627450981) 54%,
+        rgba(218, 149, 218, 0.2637429971988795) 63%,
+        rgba(234, 251, 255, 0.9332107843137255) 80%
+    );
+    // background: rgb(245, 252, 255);
+    // background: radial-gradient(
+    //     circle,
+    //     rgba(245, 252, 255, 0.9150253851540616) 44%,
+    //     rgba(173, 221, 240, 1) 74%,
+    //     rgba(245, 252, 255, 1) 100%
+    // );
     width: 250px;
     border-radius: 200px;
     text-align: center;
