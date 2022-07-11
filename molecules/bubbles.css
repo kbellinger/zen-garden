@@ -54,4 +54,46 @@
   list-style: none;
   padding-top: 5px;
   padding-right: 30px;
+}
+
+.design-selection {
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 15px;
+}
+.design-selection a {
+  color: #333;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out;
+}
+.design-selection a:hover {
+  color: #eea14e;
+}
+
+.design-archives {
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 15px;
+}
+.design-archives a {
+  color: #333;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out;
+}
+.design-archives a:hover {
+  color: #eea14e;
+}
+
+.zen-resources {
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 15px;
+}
+.zen-resources a {
+  color: #333;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out;
+}
+.zen-resources a:hover {
+  color: #eea14e;
+}
+.zen-resources abbr {
+  text-decoration: none;
 }/*# sourceMappingURL=bubbles.css.map */

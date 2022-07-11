@@ -116,3 +116,43 @@ $text-light: #fff;
         padding-right: 30px;
     }
 }
+
+.design-selection {
+    font-family: $fonts-body;
+    font-size: 15px;
+    a {
+        color: $text-dark;
+        text-decoration: none;
+        transition: border-color 0.2s ease-in-out;
+        &:hover {
+            color: $fish;
+        }
+    }
+}
+.design-archives {
+    font-family: $fonts-body;
+    font-size: 15px;
+    a {
+        color: $text-dark;
+        text-decoration: none;
+        transition: border-color 0.2s ease-in-out;
+        &:hover {
+            color: $fish;
+        }
+    }
+}
+.zen-resources {
+    font-family: $fonts-body;
+    font-size: 15px;
+    a {
+        color: $text-dark;
+        text-decoration: none;
+        transition: border-color 0.2s ease-in-out;
+        &:hover {
+            color: $fish;
+        }
+    }
+    abbr {
+        text-decoration: none;
+    }
+}
