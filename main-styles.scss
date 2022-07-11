@@ -9,13 +9,38 @@ body > div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 25% repeat(3,1fr);
+    overflow-x: hidden;
+    margin: 0;
 }
 
 .intro {
     grid-column: 1/4;
 }
 
+.summary {
+    background-color: $accent1;
+    margin: 1em 0;
+    padding: 1.5em 10em 1.5em 1.5em;
+    border-radius: 0 80% 0 0;
+    width: 50%;
+
+}
+
+.preamble {
+    // padding: .5em 10em 2em 4em;
+    // padding: .5em;
+    // margin-left: -20px;
+    // border-radius: 0 80% 0 0;
+    grid-column: 1/3;
+    width: 75%;
+    margin-top: 5em;
+    margin-left: 7em;
+    
+}
+
 .main {
+    width: 75%;
+    margin-inline: auto;
     grid-column: 1/3;
     grid-row: 2/6;
 }
