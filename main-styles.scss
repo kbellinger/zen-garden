@@ -3,6 +3,7 @@
 @use "atoms/typography";
 @use "molecules/bubbles";
 @use "molecules/footer";
+@use "atoms/boat";
 // @use 'molecules/grid'; /* contains mulitple grid options as mixins */
 
 body > div {
@@ -23,7 +24,7 @@ body > div {
     padding: 1.5em 10em 1.5em 1.5em;
     border-radius: 0 80% 0 0;
     width: 50%;
-
+    position: relative;
 }
 
 .preamble {
@@ -35,6 +36,7 @@ body > div {
     width: 75%;
     margin-top: 5em;
     margin-left: 7em;
+    position: relative;
     
 }
 

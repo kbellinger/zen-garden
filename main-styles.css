@@ -133,6 +133,39 @@ footer {
   padding: 25px;
 }
 
+.summary::after {
+  content: " ";
+  position: absolute;
+  bottom: 15px;
+  right: -20em;
+  width: 100px;
+  height: 0;
+  border-top: 30px solid brown;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+.summary::before {
+  content: "";
+  position: absolute;
+  bottom: 50px;
+  right: -14.5em;
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid brown;
+  border-left: 50px solid transparent;
+}
+
+.preamble::after {
+  content: "";
+  position: absolute;
+  right: -20em;
+  bottom: 50px;
+  width: 0;
+  height: 0;
+  border-bottom: 130px solid brown;
+  border-right: 70px solid transparent;
+}
+
 /* allows you to you the names of the variables. */
 /* adds background gradient */
 body > div {
@@ -153,6 +186,7 @@ body > div {
   padding: 1.5em 10em 1.5em 1.5em;
   border-radius: 0 80% 0 0;
   width: 50%;
+  position: relative;
 }
 
 .preamble {
@@ -160,6 +194,7 @@ body > div {
   width: 75%;
   margin-top: 5em;
   margin-left: 7em;
+  position: relative;
 }
 
 .main {
