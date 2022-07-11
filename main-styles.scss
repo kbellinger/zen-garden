@@ -1,6 +1,7 @@
 @use "variables" as *; /* allows you to you the names of the variables. */
 @use "atoms/background"; /* adds background gradient */
 @use "atoms/typography";
+@use "atoms/fish";
 @use "molecules/bubbles";
 @use "molecules/footer";
 // @use 'molecules/grid'; /* contains mulitple grid options as mixins */
@@ -11,6 +12,14 @@ body > div {
     grid-template-rows: 25% repeat(3,1fr);
     overflow-x: hidden;
     margin: 0;
+}
+body {
+    p {
+        text-decoration: none;
+    }
+    a {
+        text-decoration: none;
+    }
 }
 
 .intro {

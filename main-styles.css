@@ -6,6 +6,10 @@ body {
   background-image: linear-gradient(#d2eaf3, #519cbb, #044C6A);
 }
 
+body abbr {
+  text-decoration: none;
+}
+
 h2,
 h3 {
   font-family: "Boogaloo", Arial, sans-serif;
@@ -25,7 +29,7 @@ h1 {
 }
 
 h2 {
-  color: #Edeeee;
+  color: #edeeee;
   font-weight: 900;
   /* Heavy */
   font-size: 5em;
@@ -56,16 +60,6 @@ p {
   padding: 0.5em 0;
   margin: 0;
   font-size: 1.2em;
-}
-
-a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: #333;
-  text-decoration: none;
-  transition: border-color 0.2s ease-in-out;
-}
-a:hover {
-  border-color: #DeccA0;
 }
 
 .design-selection {
@@ -125,6 +119,48 @@ a:hover {
   padding-right: 30px;
 }
 
+.design-selection {
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 15px;
+}
+.design-selection a {
+  color: #333;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out;
+}
+.design-selection a:hover {
+  color: #eea14e;
+}
+
+.design-archives {
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 15px;
+}
+.design-archives a {
+  color: #333;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out;
+}
+.design-archives a:hover {
+  color: #eea14e;
+}
+
+.zen-resources {
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 15px;
+}
+.zen-resources a {
+  color: #333;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out;
+}
+.zen-resources a:hover {
+  color: #eea14e;
+}
+.zen-resources abbr {
+  text-decoration: none;
+}
+
 footer {
   background: rgb(240, 217, 173);
   background: linear-gradient(rgb(240, 217, 173) 21%, rgb(154, 129, 80) 87%);
@@ -141,6 +177,13 @@ body > div {
   grid-template-rows: 25% repeat(3, 1fr);
   overflow-x: hidden;
   margin: 0;
+}
+
+body p {
+  text-decoration: none;
+}
+body a {
+  text-decoration: none;
 }
 
 .intro {
