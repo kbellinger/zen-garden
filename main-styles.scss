@@ -1,7 +1,8 @@
-@use 'variables' as *; /* allows you to you the names of the variables. */
-@use 'atoms/background'; /* adds background gradient */
-@use 'atoms/typography';
-@use 'molecules/bubbles';
+@use "variables" as *; /* allows you to you the names of the variables. */
+@use "atoms/background"; /* adds background gradient */
+@use "atoms/typography";
+@use "molecules/bubbles";
+@use "molecules/footer";
 // @use 'molecules/grid'; /* contains mulitple grid options as mixins */
 
 body > div {
