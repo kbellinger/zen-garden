@@ -1,17 +1,20 @@
+@use "../variables" as *;
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat:wght@200;300;400;500&display=swap");
 
-$fonts-headline: "Boogaloo", Arial, sans-serif;
-$fonts-body: "Montserrat", arial, sans-serif;
-$primary: #519cbb;
-$background-color: #adddf0;
-$secondary: #044c6a;
-$third-color: #04364f;
-$accent1: #decca0;
-$accent2: #edeeee;
-$fish: #eea14e;
-// $grey-sidebar: rgba(51, 55, 69, 0.9);
-$text-dark: #333;
-$text-light: #fff;
+:root {
+  --ratio: 1.5;
+  --s-5: calc(var(--s-4) / var(--ratio));
+  --s-4: calc(var(--s-3) / var(--ratio));
+  --s-3: calc(var(--s-2) / var(--ratio));
+  --s-2: calc(var(--s-1) / var(--ratio));
+  --s-1: calc(var(--s0) / var(--ratio)); 
+  --s0: 1em; 
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  --s4: calc(var(--s3) * var(--ratio));
+  --s5: calc(var(--s4) * var(--ratio));
+}
 
 //main text styles
 
@@ -21,15 +24,17 @@ body {
     }
 }
 
+h1,
 h2,
 h3 {
     font-family: $fonts-headline;
     margin: 0;
 }
 h1 {
+    margin: 5vh 0vh 5vh 0vh;
     font-family: $fonts-headline;
     font-weight: 900; /* Heavy */
-    font-size: 6em;
+    font-size: var(--s5);
     color: $fish;
     display: inline-block;
     font-weight: normal;
@@ -37,22 +42,23 @@ h1 {
     line-height: 1em;
 }
 h2 {
+    margin-bottom: 2vh;
     color: $accent2;
     font-weight: 900; /* Heavy */
-    font-size: 5em;
+    font-size: var(--s3);
     letter-spacing: 1px;
     line-height: 1em;
 }
 h3 {
   font-family: $fonts-headline;
-  font-size: 2.25em;
+  font-size: var(--s2);
   font-weight: 400; 
   letter-spacing: 1px;
   line-height: 1em;
   padding: 0.5em 0 0.25em 0;
 }
 h4 {
-    font-size: 1.5em;
+    font-size: var(--s1);
     font-weight: 200; /* Thin */
     letter-spacing: 1px;
     line-height: 1em;
@@ -64,7 +70,7 @@ p {
   font-family: $fonts-body;
   padding: 0.5em 0;
   margin: 0;
-  font-size: 1.2em;
+  font-size: var(--s0);
 }
 
 a {
