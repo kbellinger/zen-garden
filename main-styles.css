@@ -275,7 +275,6 @@ header {
 body > div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 25% repeat(3, 1fr);
   overflow-x: hidden;
   margin: 0;
 }
@@ -307,6 +306,7 @@ body a {
   width: 75%;
   margin-top: 5em;
   margin-left: 7em;
+  margin-bottom: var(--s3);
 }
 
 .main {
@@ -315,8 +315,11 @@ body a {
   grid-column: 1/3;
   grid-row: 2/6;
 }
+.main div {
+  margin-bottom: var(--s3);
+}
 
-.footer {
+footer {
   grid-row: 6/7;
 }
 
