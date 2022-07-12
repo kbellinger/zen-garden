@@ -7,8 +7,7 @@ h3 {
 
 h1 {
   font-family: "Boogaloo", Arial, sans-serif;
-  font-weight: 900;
-  /* Heavy */
+  font-weight: 900; /* Heavy */
   font-size: 6em;
   color: #eea14e;
   display: inline-block;
@@ -19,8 +18,7 @@ h1 {
 
 h2 {
   color: #Edeeee;
-  font-weight: 900;
-  /* Heavy */
+  font-weight: 900; /* Heavy */
   font-size: 5em;
   letter-spacing: 1px;
   line-height: 1em;
@@ -37,8 +35,7 @@ h3 {
 
 h4 {
   font-size: 1.5em;
-  font-weight: 200;
-  /* Thin */
+  font-weight: 200; /* Thin */
   letter-spacing: 1px;
   line-height: 1em;
   margin: 0.5em 0;
