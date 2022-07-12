@@ -1,17 +1,5 @@
+@use "../variables" as *;
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat:wght@200;300;400;500&display=swap");
-
-$fonts-headline: "Boogaloo", Arial, sans-serif;
-$fonts-body: "Montserrat", arial, sans-serif;
-$primary: #519cbb;
-$background-color: #adddf0;
-$secondary: #044c6a;
-$third-color: #04364f;
-$accent1: #decca0;
-$accent2: #edeeee;
-$fish: #eea14e;
-// $grey-sidebar: rgba(51, 55, 69, 0.9);
-$text-dark: #333;
-$text-light: #fff;
 
 .design-selection {
     background: rgb(234, 251, 255);

@@ -7,6 +7,16 @@
 @use "atoms/boats";
 // @use 'molecules/grid'; /* contains mulitple grid options as mixins */
 
+html {
+    //font-size: 20px;
+}
+
+header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
 body > div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -15,6 +25,7 @@ body > div {
     margin: 0;
 }
 body {
+    margin: 0;
     p {
         text-decoration: none;
     }
@@ -53,6 +64,6 @@ body {
     grid-row: 2/6;
 }
 
-.footer {
+footer {
     grid-row: 6/7;
 }

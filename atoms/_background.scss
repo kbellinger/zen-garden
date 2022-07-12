@@ -1,7 +1,4 @@
-$background-color: #d2eaf3;
-$primary: #519cbb;
-$secondary:#044C6A;
-$third-color:#04364F;
+@use "../variables" as *;
 
 
 body{

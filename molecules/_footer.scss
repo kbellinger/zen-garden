@@ -1,7 +1,13 @@
 footer {
     background: rgb(240, 217, 173);
     background: linear-gradient(rgba(240, 217, 173, 1) 21%, rgba(154, 129, 80, 1) 87%);
-    width: 500em;
-    margin-left: -7em;
-    padding: 25px;
+    // width: 500em;
+    // margin-left: -7em;
+    display: grid;
+    grid-column: 1 / span 3;
+    // max-width: 100%;      
+    grid-row: 3/7;   
+    padding: 25px 100px 25px 100px;
+    display: flex;
+    justify-content: space-between;
 }
