@@ -1,70 +1,73 @@
 .extra1 {
-    position: absolute;
-    background: #00c9ff;
-    width: 300px;
-    height: 200px;
-    top: 800px;
-    left: 125px;
-    z-index: -20;
-    border-radius: 95% 150px 150px 80%;
-
-    //eye
     &:before {
         content: "";
         position: absolute;
-        background: white;
-        width: 15px;
-        height: 12px;
-        top: 50px;
-        left: 60px;
-        z-index: 1;
-        border-radius: 50px;
-        transform: rotate(-15deg);
+        width: 200px;
+        height: 100px;
+        background-image: url("SVG/fish-01.svg");
+        background-repeat: none;
+        top: 150px;
+        left: 600px;
+        z-index: -10;
     }
     &:after {
         content: "";
         position: absolute;
-        background: linear-gradient(#00c9ff 20%, #92fe9d 80%);
-        width: 75px;
-        height: 125px;
-        top: 125px;
-        left: 155px;
-        border-radius: 95% 150px 150px 80%;
-        transform: rotate(-45deg);
+        width: 190px;
+        height: 75px;
+        background-image: url("SVG/fish-02.svg");
+        background-repeat: none;
+        top: 600px;
+        left: 10px;
+        z-index: -10;
     }
 }
-
-//fins
-
-// .extra1::after {
-//     position: absolute;
-//     background: linear-gradient(#00c9ff 20%, #92fe9d 80%);
-//     width: 75px;
-//     height: 125px;
-//     top: 225px;
-//     left: 255px;
-//     border-radius: 95% 150px 150px 80%;
-//     transform: rotate(-45deg);
+.extra2 {
+    &:before {
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 70px;
+        background-image: url("SVG/fish-03.svg");
+        background-repeat: none;
+        top: 800px;
+        left: 500px;
+        z-index: -10;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 125px;
+        background-image: url("SVG/fish-04.svg");
+        background-repeat: none;
+        top: 2000px;
+        left: 600px;
+        z-index: -10;
+    }
+}
+// @keyframes swim {
+//     0% {
+//         margin-left: -235px;
+//     }
+//     90% {
+//         margin-left: 100%;
+//     }
+//     100% {
+//         margin-left: 100%;
+//     }
 // }
 
-// .extra1::after {
-//     position: absolute;
-//     background: linear-gradient(to right, #00c9ff 10%, #92fe9d 90%);
-//     width: 50px;
-//     height: 155px;
-//     top: 15px;
-//     left: 275px;
-//     border-radius: 95% 150px 150px 80%;
-//     transform: rotate(-90deg);
-// }
-
-// .extra1::after {
-//     position: absolute;
-//     background: linear-gradient(to left, #00c9ff 0%, #92fe9d 100%);
-//     width: 100px;
-//     height: 125px;
-//     top: 150px;
-//     left: 400px;
-//     border-radius: 95% 150px 150px 80%;
-//     transform: rotate(180deg);
+// footer {
+//     background-color: none;
+//     &:after {
+//         content: "";
+//         position: absolute;
+//         width: 100%;
+//         height: 225px;
+//         background-image: url("SVG/sand-05.svg");
+//         background-repeat: none;
+//         top: 2650px;
+//         z-index: -10;
+//     }
 // }
