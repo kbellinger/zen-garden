@@ -226,7 +226,10 @@ a:hover {
 footer {
   background: rgb(240, 217, 173);
   background: linear-gradient(rgb(240, 217, 173) 21%, rgb(154, 129, 80) 87%);
-  padding: 25px;
+  display: grid;
+  grid-column: 1/span 3;
+  grid-row: 3/7;
+  padding: 25px 100px 25px 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -316,7 +319,7 @@ body a {
   grid-row: 2/6;
 }
 
-.footer {
+footer {
   grid-row: 6/7;
 }
 
