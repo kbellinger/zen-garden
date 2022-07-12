@@ -234,8 +234,8 @@ footer {
 .summary::after {
   content: " ";
   position: absolute;
-  bottom: 15px;
-  right: -20em;
+  bottom: 165px;
+  right: 15em;
   width: 100px;
   height: 0;
   border-top: 30px solid brown;
@@ -245,19 +245,19 @@ footer {
 .summary::before {
   content: "";
   position: absolute;
-  bottom: 50px;
-  right: -14.5em;
+  bottom: 200px;
+  right: 20.5em;
   width: 0;
   height: 0;
   border-bottom: 80px solid brown;
   border-left: 50px solid transparent;
 }
 
-.preamble::after {
+.preamble::before {
   content: "";
   position: absolute;
-  right: -20em;
-  bottom: 50px;
+  right: 15.5em;
+  bottom: 200px;
   width: 0;
   height: 0;
   border-bottom: 130px solid brown;
