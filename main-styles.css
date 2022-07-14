@@ -102,6 +102,22 @@ a:hover {
   border-color: #DeccA0;
 }
 
+#zen-explanation {
+  color: rgb(45, 45, 45);
+}
+
+#zen-participation, #zen-participation a {
+  color: rgb(56, 85, 113);
+}
+
+#zen-benefits {
+  color: rgb(181, 213, 252);
+}
+
+#zen-requirements, #zen-requirements a {
+  color: rgb(198, 235, 252);
+}
+
 .extra1:before {
   content: "";
   position: absolute;
@@ -210,6 +226,7 @@ a:hover {
   font-size: 15px;
 }
 .design-selection a {
+  border-bottom: none;
   color: #333;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
@@ -223,6 +240,7 @@ a:hover {
   font-size: 15px;
 }
 .design-archives a {
+  border-bottom: none;
   color: #333;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
@@ -236,6 +254,7 @@ a:hover {
   font-size: 15px;
 }
 .zen-resources a {
+  border-bottom: none;
   color: #333;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
@@ -248,14 +267,14 @@ a:hover {
 }
 
 footer {
-  background: rgb(240, 217, 173);
-  background: linear-gradient(rgb(240, 217, 173) 21%, rgb(154, 129, 80) 87%);
+  font-family: "Montserrat", arial, sans-serif;
   display: grid;
-  grid-column: 1/span 3;
-  grid-row: 3/7;
-  padding: 25px 100px 25px 100px;
+  padding: 25px 0px 25px 0px;
   display: flex;
   justify-content: space-between;
+}
+footer a {
+  color: white;
 }
 
 .summary::after {
@@ -315,12 +334,6 @@ body > div {
 body {
   margin: 0;
 }
-body p {
-  text-decoration: none;
-}
-body a {
-  text-decoration: none;
-}
 
 .intro {
   grid-column: 1/4;
@@ -358,6 +371,7 @@ body a {
     grid-column: 1;
   }
 }
+
 
 footer {
   grid-row: 6/7;
