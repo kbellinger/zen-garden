@@ -6,12 +6,11 @@
         height: 100px;
         background-image: url("SVG/fish-01.svg");
         background-repeat: none;
-        top: 150px;
+        top: 1050px;
         left: 600px;
         z-index: -10;
 
-        animation: swim1 15s ease infinite;
-
+        animation: swim1 5s ease infinite;
     }
     &:after {
         content: "";
@@ -19,10 +18,11 @@
         width: 190px;
         height: 75px;
         background-image: url("SVG/fish-02.svg");
-        background-repeat: none;
         top: 600px;
-        left: 10px;
+        left: 0;
         z-index: -10;
+
+        animation: swim2 5s ease infinite;
     }
 }
 
@@ -32,7 +32,16 @@
         transform: left(0px);
     }
     100% {
-        transform: left(100px);
+        transform: left(1000px);
+    }
+}
+@keyframes swim2 {
+    0% {
+        left: 0;
+        transform: left(0px);
+    }
+    100% {
+        transform: left(1000px);
     }
 }
 
@@ -45,9 +54,21 @@
         background-image: url("SVG/fish-03.svg");
         background-repeat: none;
         top: 800px;
-        left: 500px;
+        right: 100px;
         z-index: -10;
+        animation: swim3 5s ease infinite;
     }
+
+    @keyframes swim3 {
+        0% {
+            right: 0;
+            transform: right(0px);
+        }
+        100% {
+            transform: right(1000px);
+        }
+    }
+
     &:after {
         content: "";
         position: absolute;
@@ -56,8 +77,18 @@
         background-image: url("SVG/fish-04.svg");
         background-repeat: none;
         top: 2000px;
-        left: 600px;
+        right: 0;
         z-index: -10;
+        animation: swim4 5s ease infinite;
+    }
+    @keyframes swim4 {
+        0% {
+            left: 0;
+            transform: right(0px);
+        }
+        100% {
+            transform: right(1000px);
+        }
     }
 }
 

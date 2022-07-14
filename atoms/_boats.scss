@@ -2,7 +2,7 @@
     &:before {
         content: " ";
         position: absolute;
-        bottom: 280px;
+        bottom: 180px;
         right: 0;
         height: 400px;
         width: 800px;
@@ -12,10 +12,10 @@
     &:after {
         content: " ";
         position: absolute;
-        bottom: 200px;
+        bottom: 100px;
         left: -155px;
         height: 400px;
-        width: 800px;
+        min-width: 800px;
         background-image: url("SVG/wave.svg");
         background-repeat: none;
     }
@@ -71,7 +71,7 @@
 //         border-bottom: 80px solid brown;
 //         border-left: 50px solid transparent;
 //     }
-    
+
 // }
 
 // .preamble {
@@ -83,10 +83,9 @@
 //         width: 0;
 //         height: 0;
 //         border-bottom:130px solid brown;
-//         border-right: 70px solid transparent; 
+//         border-right: 70px solid transparent;
 //     }
 // }
-
 
 // }
 

@@ -62,6 +62,7 @@
   font-size: 15px;
 }
 .design-selection a {
+  border-bottom: none;
   color: #333;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
@@ -75,6 +76,7 @@
   font-size: 15px;
 }
 .design-archives a {
+  border-bottom: none;
   color: #333;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
@@ -88,6 +90,7 @@
   font-size: 15px;
 }
 .zen-resources a {
+  border-bottom: none;
   color: #333;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
