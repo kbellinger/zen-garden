@@ -35,8 +35,7 @@ h3 {
 h1 {
   margin: 5vh 0vh 5vh 0vh;
   font-family: "Boogaloo", Arial, sans-serif;
-  font-weight: 900;
-  /* Heavy */
+  font-weight: 900; /* Heavy */
   font-size: var(--s5);
   color: #eea14e;
   display: inline-block;
@@ -54,8 +53,7 @@ h1 {
 h2 {
   margin-bottom: 2vh;
   color: #Edeeee;
-  font-weight: 900;
-  /* Heavy */
+  font-weight: 900; /* Heavy */
   font-size: var(--s3);
   letter-spacing: 1px;
   line-height: 1em;
@@ -78,8 +76,7 @@ h3 {
 
 h4 {
   font-size: var(--s1);
-  font-weight: 200;
-  /* Thin */
+  font-weight: 200; /* Thin */
   letter-spacing: 1px;
   line-height: 1em;
   margin: 0.5em 0;
@@ -128,6 +125,7 @@ a:hover {
   top: 150px;
   left: 600px;
   z-index: -10;
+
   animation: swim1 15s ease infinite;
 }
 .extra1:after {
@@ -141,6 +139,7 @@ a:hover {
   left: 10px;
   z-index: -10;
 }
+
 
 @keyframes swim1 {
   0% {
@@ -283,6 +282,28 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+
+.summary:before {
+  content: " ";
+  position: absolute;
+  bottom: 280px;
+  right: 0;
+  height: 400px;
+  width: 800px;
+  background-image: url("SVG/boat-01.svg");
+  background-repeat: none;
+}
+.summary:after {
+  content: " ";
+  position: absolute;
+  bottom: 200px;
+  left: -155px;
+  height: 400px;
+  width: 800px;
+  background-image: url("SVG/wave.svg");
+  background-repeat: none;
+
 footer a {
   color: white;
 }
