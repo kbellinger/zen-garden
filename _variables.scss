@@ -12,3 +12,27 @@ $fish: #eea14e;
 // $grey-sidebar: rgba(51, 55, 69, 0.9);
 $text-dark: #333;
 $text-light: #fff;
+
+
+
+@mixin breakpoint($break){
+    @if $break == small{
+        @media (max-width: 700px){
+            @content;
+        }
+    } 
+    // @else if $break == medium{
+    //     @media (max-width: 765px){
+    //         @content;
+    //     }
+    // }
+    @else if $break == large{
+        @media (max-width: 1150px){
+            @content;
+        }
+    }@else{
+        @media ($break) {
+            @content;
+        }
+    }
+}
