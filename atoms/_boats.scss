@@ -1,39 +1,60 @@
-.summary{
-    &::after{
+.summary {
+    &:before {
         content: " ";
         position: absolute;
-        bottom:280px;
-        right:15em;
-        width:100px;
-        height: 0;
-        border-top: 30px solid brown;
-        border-left: 25px solid transparent;
-        border-right: 25px solid transparent;
+        bottom: 280px;
+        right: 0;
+        height: 400px;
+        width: 800px;
+        background-image: url("SVG/boat-01.svg");
+        background-repeat: none;
     }
-    &::before {
-        content: "";
+    &:after {
+        content: " ";
         position: absolute;
-        bottom: 315px;
-        right: 20.5em;
-        width: 0;
-        height: 0;
-        border-bottom: 80px solid brown;
-        border-left: 50px solid transparent;
-    }
-    
-}
-
-.preamble {
-    &::before {
-        content: "";
-        position: absolute;
-        right: 15.5em;
-        bottom: 315px;
-        width: 0;
-        height: 0;
-        border-bottom:130px solid brown;
-        border-right: 70px solid transparent; 
+        bottom: 200px;
+        left: -155px;
+        height: 400px;
+        width: 800px;
+        background-image: url("SVG/wave.svg");
+        background-repeat: none;
     }
 }
 
+// .summary{
+//     &::after{
+//         content: " ";
+//         position: absolute;
+//         bottom:280px;
+//         right:15em;
+//         width:100px;
+//         height: 0;
+//         border-top: 30px solid brown;
+//         border-left: 25px solid transparent;
+//         border-right: 25px solid transparent;
+//     }
+//     &::before {
+//         content: "";
+//         position: absolute;
+//         bottom: 315px;
+//         right: 20.5em;
+//         width: 0;
+//         height: 0;
+//         border-bottom: 80px solid brown;
+//         border-left: 50px solid transparent;
+//     }
 
+// }
+
+// .preamble {
+//     &::before {
+//         content: "";
+//         position: absolute;
+//         right: 15.5em;
+//         bottom: 315px;
+//         width: 0;
+//         height: 0;
+//         border-bottom:130px solid brown;
+//         border-right: 70px solid transparent;
+//     }
+// }

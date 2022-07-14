@@ -2,18 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat:wght@200;300;400;500&display=swap");
 
 :root {
-  --ratio: 1.5;
-  --s-5: calc(var(--s-4) / var(--ratio));
-  --s-4: calc(var(--s-3) / var(--ratio));
-  --s-3: calc(var(--s-2) / var(--ratio));
-  --s-2: calc(var(--s-1) / var(--ratio));
-  --s-1: calc(var(--s0) / var(--ratio)); 
-  --s0: 1em; 
-  --s1: calc(var(--s0) * var(--ratio));
-  --s2: calc(var(--s1) * var(--ratio));
-  --s3: calc(var(--s2) * var(--ratio));
-  --s4: calc(var(--s3) * var(--ratio));
-  --s5: calc(var(--s4) * var(--ratio));
+    --ratio: 1.5;
+    --s-5: calc(var(--s-4) / var(--ratio));
+    --s-4: calc(var(--s-3) / var(--ratio));
+    --s-3: calc(var(--s-2) / var(--ratio));
+    --s-2: calc(var(--s-1) / var(--ratio));
+    --s-1: calc(var(--s0) / var(--ratio));
+    --s0: 1em;
+    --s1: calc(var(--s0) * var(--ratio));
+    --s2: calc(var(--s1) * var(--ratio));
+    --s3: calc(var(--s2) * var(--ratio));
+    --s4: calc(var(--s3) * var(--ratio));
+    --s5: calc(var(--s4) * var(--ratio));
 }
 
 //main text styles
@@ -50,12 +50,12 @@ h2 {
     line-height: 1em;
 }
 h3 {
-  font-family: $fonts-headline;
-  font-size: var(--s2);
-  font-weight: 400; 
-  letter-spacing: 1px;
-  line-height: 1em;
-  padding: 0.5em 0 0.25em 0;
+    font-family: $fonts-headline;
+    font-size: var(--s2);
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1em;
+    padding: 0.5em 0 0.25em 0;
 }
 h4 {
     font-size: var(--s1);
@@ -66,19 +66,19 @@ h4 {
 }
 
 p {
-//   @include set-font(1em, 1.5em);
-  font-family: $fonts-body;
-  padding: 0.5em 0;
-  margin: 0;
-  font-size: var(--s0);
+    //   @include set-font(1em, 1.5em);
+    font-family: $fonts-body;
+    padding: 0.5em 0;
+    margin: 0;
+    font-size: var(--s0);
 }
 
 a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: $text-dark;
-  text-decoration: none;
-  transition: border-color 0.2s ease-in-out;
-  &:hover {
-    border-color: $accent1;
-  }
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: $text-dark;
+    text-decoration: none;
+    transition: border-color 0.2s ease-in-out;
+    &:hover {
+        border-color: $accent1;
+    }
 }

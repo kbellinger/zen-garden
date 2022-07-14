@@ -35,8 +35,7 @@ h3 {
 h1 {
   margin: 5vh 0vh 5vh 0vh;
   font-family: "Boogaloo", Arial, sans-serif;
-  font-weight: 900;
-  /* Heavy */
+  font-weight: 900; /* Heavy */
   font-size: var(--s5);
   color: #eea14e;
   display: inline-block;
@@ -48,8 +47,7 @@ h1 {
 h2 {
   margin-bottom: 2vh;
   color: #Edeeee;
-  font-weight: 900;
-  /* Heavy */
+  font-weight: 900; /* Heavy */
   font-size: var(--s3);
   letter-spacing: 1px;
   line-height: 1em;
@@ -66,8 +64,7 @@ h3 {
 
 h4 {
   font-size: var(--s1);
-  font-weight: 200;
-  /* Thin */
+  font-weight: 200; /* Thin */
   letter-spacing: 1px;
   line-height: 1em;
   margin: 0.5em 0;
@@ -100,6 +97,10 @@ a:hover {
   top: 150px;
   left: 600px;
   z-index: -10;
+  -webkit-animation-name: swim1;
+          animation-name: swim1;
+  -webkit-animation-duration: 5s infinite;
+          animation-duration: 5s infinite;
 }
 .extra1:after {
   content: "";
@@ -113,6 +114,25 @@ a:hover {
   z-index: -10;
 }
 
+@-webkit-keyframes swim1 {
+  0% {
+    left: 0;
+    transform: left(0px);
+  }
+  100% {
+    transform: left(100px);
+  }
+}
+
+@keyframes swim1 {
+  0% {
+    left: 0;
+    transform: left(0px);
+  }
+  100% {
+    transform: left(100px);
+  }
+}
 .extra2:before {
   content: "";
   position: absolute;
@@ -246,37 +266,25 @@ footer {
   justify-content: space-between;
 }
 
-.summary::after {
+.summary:before {
   content: " ";
   position: absolute;
   bottom: 280px;
-  right: 15em;
-  width: 100px;
-  height: 0;
-  border-top: 30px solid brown;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
+  right: 0;
+  height: 400px;
+  width: 800px;
+  background-image: url("SVG/boat-01.svg");
+  background-repeat: none;
 }
-.summary::before {
-  content: "";
+.summary:after {
+  content: " ";
   position: absolute;
-  bottom: 315px;
-  right: 20.5em;
-  width: 0;
-  height: 0;
-  border-bottom: 80px solid brown;
-  border-left: 50px solid transparent;
-}
-
-.preamble::before {
-  content: "";
-  position: absolute;
-  right: 15.5em;
-  bottom: 315px;
-  width: 0;
-  height: 0;
-  border-bottom: 130px solid brown;
-  border-right: 70px solid transparent;
+  bottom: 200px;
+  left: -155px;
+  height: 400px;
+  width: 800px;
+  background-image: url("SVG/wave.svg");
+  background-repeat: none;
 }
 
 /* allows you to you the names of the variables. */
