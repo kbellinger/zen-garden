@@ -125,8 +125,8 @@ a:hover {
   top: 1050px;
   left: 600px;
   z-index: -10;
-  -webkit-animation: swim1 5s ease infinite;
-          animation: swim1 5s ease infinite;
+  -webkit-animation: swim1 7s ease infinite;
+          animation: swim1 7s ease infinite;
 }
 .extra1:after {
   content: "";
@@ -134,48 +134,48 @@ a:hover {
   width: 190px;
   height: 75px;
   background-image: url("SVG/fish-02.svg");
-  top: 600px;
+  top: 1900px;
   left: 0;
   z-index: -10;
-  -webkit-animation: swim2 5s ease infinite;
-          animation: swim2 5s ease infinite;
+  -webkit-animation: swim2 10s ease infinite;
+          animation: swim2 10s ease infinite;
 }
 
 @-webkit-keyframes swim1 {
   0% {
     left: 0;
-    transform: left(0px);
+    transform: translatex(-100px);
   }
   100% {
-    transform: left(1000px);
+    transform: translatex(1000px);
   }
 }
 
 @keyframes swim1 {
   0% {
     left: 0;
-    transform: left(0px);
+    transform: translatex(-100px);
   }
   100% {
-    transform: left(1000px);
+    transform: translatex(1000px);
   }
 }
 @-webkit-keyframes swim2 {
   0% {
     left: 0;
-    transform: left(0px);
+    transform: translatex(-100px);
   }
   100% {
-    transform: left(1000px);
+    transform: translatex(1000px);
   }
 }
 @keyframes swim2 {
   0% {
     left: 0;
-    transform: left(0px);
+    transform: translatex(-100px);
   }
   100% {
-    transform: left(1000px);
+    transform: translatex(1000px);
   }
 }
 .extra2:before {
@@ -188,25 +188,23 @@ a:hover {
   top: 800px;
   right: 100px;
   z-index: -10;
-  -webkit-animation: swim3 5s ease infinite;
-          animation: swim3 5s ease infinite;
+  -webkit-animation: swim3 8s ease infinite;
+          animation: swim3 8s ease infinite;
 }
 @-webkit-keyframes swim3 {
   0% {
-    right: 0;
-    transform: right(0px);
+    transform: translatex(2000px);
   }
   100% {
-    transform: right(1000px);
+    transform: translatex(-2000px);
   }
 }
 @keyframes swim3 {
   0% {
-    right: 0;
-    transform: right(0px);
+    transform: translatex(2000px);
   }
   100% {
-    transform: right(1000px);
+    transform: translatex(-2000px);
   }
 }
 .extra2:after {
@@ -216,28 +214,26 @@ a:hover {
   height: 125px;
   background-image: url("SVG/fish-04.svg");
   background-repeat: none;
-  top: 2000px;
+  top: 2200px;
   right: 0;
   z-index: -10;
-  -webkit-animation: swim4 5s ease infinite;
-          animation: swim4 5s ease infinite;
+  -webkit-animation: swim4 15s ease infinite;
+          animation: swim4 15s ease infinite;
 }
 @-webkit-keyframes swim4 {
   0% {
-    left: 0;
-    transform: right(0px);
+    transform: translatex(2000px);
   }
   100% {
-    transform: right(1000px);
+    transform: translatex(-2000px);
   }
 }
 @keyframes swim4 {
   0% {
-    left: 0;
-    transform: right(0px);
+    transform: translatex(2000px);
   }
   100% {
-    transform: right(1000px);
+    transform: translatex(-2000px);
   }
 }
 
