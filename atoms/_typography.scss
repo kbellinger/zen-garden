@@ -16,6 +16,11 @@
   --s5: calc(var(--s4) * var(--ratio));
 }
 
+$text-gradient-color1: rgb(45, 45, 45);
+$text-gradient-color2: rgb(56, 85, 113);
+$text-gradient-color3: rgb(181, 213, 252);
+$text-gradient-color4: rgb(198, 235, 252);
+
 //main text styles
 
 body {
@@ -82,3 +87,20 @@ a {
     border-color: $accent1;
   }
 }
+
+#zen-explanation {
+  color: $text-gradient-color1;
+}
+
+#zen-participation, #zen-participation a {
+  color: $text-gradient-color2;
+}
+
+#zen-benefits{
+  color: $text-gradient-color3;
+}
+
+#zen-requirements, #zen-requirements a {
+  color: $text-gradient-color4;
+}
+

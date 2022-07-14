@@ -13,6 +13,11 @@ $fish: #eea14e;
 $text-dark: #333;
 $text-light: #fff;
 
+$text-gradient-color1: rgb(76, 76, 76);
+$text-gradient-color2: rgb(108, 108, 108);
+$text-gradient-color3: rgb(141, 141, 141);
+$text-gradient-color4: rgb(176, 176, 176);
+
 :root {
    --ratio: 1.5;
    --s-5: calc(var(--s-4) / var(--ratio));
