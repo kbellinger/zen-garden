@@ -7,17 +7,20 @@
 @use "atoms/boats";
 
 header {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
+body {
+    overflow-x: hidden;
+}
 body > div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     overflow-x: hidden;
     margin: 0;
-    @include breakpoint(small){
+
+    @include breakpoint(small) {
         // grid-template-rows: 10% 80% 20%;
         display: flex;
         flex-direction: column;
@@ -59,7 +62,7 @@ body {
         margin-bottom: var(--s3);
     }
 
-    @include breakpoint(small){
+    @include breakpoint(small) {
         grid-row: 3;
         grid-column: 1;
     }
@@ -67,15 +70,14 @@ body {
 
 footer {
     grid-row: 6/7;
-    @include breakpoint(small){
+    @include breakpoint(small) {
         // justify-content: flex-end;
         margin-top: 61em;
     }
 }
 
 aside .wrapper {
-    @include breakpoint(small){
+    @include breakpoint(small) {
         margin-top: -62em;
     }
-
 }
