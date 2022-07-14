@@ -68,11 +68,36 @@ body {
     div {
         margin-bottom: var(--s3);
     }
+    h3,
+    p {
+        animation: p-fade 3s ease-in;
+    }
     @include breakpoint(small){
         grid-row: 3;
         grid-column: 1;
     }
+    
 }
+
+@keyframes p-fade {
+    0% {
+    opacity: 0;
+    transform: translateY(80%);
+    }
+    20% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 1;
+    transform: translateY(0%);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0%);
+    }
+}
+
+
 
 footer {
     grid-row: 6/7;
