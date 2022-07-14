@@ -363,6 +363,10 @@ body {
 .main div {
   margin-bottom: var(--s3);
 }
+.main h3,
+.main p {
+  animation: p-fade 3s ease-in;
+}
 @media (max-width: 700px) {
   .main {
     grid-row: 3;
@@ -370,6 +374,23 @@ body {
   }
 }
 
+@keyframes p-fade {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
 footer {
   grid-row: 6/7;
 }
