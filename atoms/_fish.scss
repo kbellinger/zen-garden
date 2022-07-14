@@ -9,8 +9,9 @@
         top: 150px;
         left: 600px;
         z-index: -10;
-        animation-name: swim1;
-        animation-duration: 5s infinite;
+
+        animation: swim1 15s ease infinite;
+
     }
     &:after {
         content: "";

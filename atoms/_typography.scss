@@ -16,38 +16,51 @@
     --s5: calc(var(--s4) * var(--ratio));
 }
 
+$text-gradient-color1: rgb(45, 45, 45);
+$text-gradient-color2: rgb(56, 85, 113);
+$text-gradient-color3: rgb(43, 98, 121);
+$text-gradient-color4: rgb(178, 231, 255);
+
 //main text styles
 
 body {
-    abbr {
-        text-decoration: none;
-    }
+  abbr {
+      text-decoration: none;
+  }
 }
 
 h1,
 h2,
 h3 {
-    font-family: $fonts-headline;
-    margin: 0;
+  font-family: $fonts-headline;
+  margin: 0;
 }
 h1 {
-    margin: 5vh 0vh 5vh 0vh;
-    font-family: $fonts-headline;
-    font-weight: 900; /* Heavy */
-    font-size: var(--s5);
-    color: $fish;
-    display: inline-block;
-    font-weight: normal;
-    letter-spacing: 1px;
-    line-height: 1em;
+  margin: 5vh 0vh 5vh 0vh;
+  font-family: $fonts-headline;
+  font-weight: 900; /* Heavy */
+  font-size: var(--s5);
+  color: $fish;
+  display: inline-block;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1em;
+    @include breakpoint(small){
+      font-size: var(--s4);
+      text-align: center;
+    }
 }
 h2 {
-    margin-bottom: 2vh;
-    color: $accent2;
-    font-weight: 900; /* Heavy */
-    font-size: var(--s3);
-    letter-spacing: 1px;
-    line-height: 1em;
+  margin-bottom: 2vh;
+  color: $accent2;
+  font-weight: 900; /* Heavy */
+  font-size: var(--s3);
+  letter-spacing: 1px;
+  line-height: 1em;
+    @include breakpoint(small){
+      font-size: var(--s3);
+      text-align: center;
+    }
 }
 h3 {
     font-family: $fonts-headline;
@@ -58,11 +71,11 @@ h3 {
     padding: 0.5em 0 0.25em 0;
 }
 h4 {
-    font-size: var(--s1);
-    font-weight: 200; /* Thin */
-    letter-spacing: 1px;
-    line-height: 1em;
-    margin: 0.5em 0;
+  font-size: var(--s1);
+  font-weight: 200; /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin: 0.5em 0;
 }
 
 p {
@@ -82,3 +95,20 @@ a {
         border-color: $accent1;
     }
 }
+
+#zen-explanation {
+  color: $text-gradient-color1;
+}
+
+#zen-participation, #zen-participation a {
+  color: $text-gradient-color2;
+}
+
+#zen-benefits{
+  color: $text-gradient-color3;
+}
+
+#zen-requirements, #zen-requirements a {
+  color: $text-gradient-color4;
+}
+
