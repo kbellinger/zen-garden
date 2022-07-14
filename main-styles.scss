@@ -38,6 +38,12 @@ body {
     padding: 1.5em 10em 1.5em 1.5em;
     border-radius: 0 80% 0 0;
     width: 50%;
+    @include breakpoint(small){
+        background-color: transparent;
+        text-align: center;
+        width: 90%;
+        margin:auto auto 13em auto;
+    }
 }
 
 .preamble {

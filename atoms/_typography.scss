@@ -58,7 +58,7 @@ h2 {
   letter-spacing: 1px;
   line-height: 1em;
     @include breakpoint(small){
-      font-size: var(--s3);
+      font-size: var(--s2);
       text-align: center;
     }
 }

@@ -1,23 +1,37 @@
+@use '../variables' as *;
+
 .summary {
     &:before {
         content: " ";
         position: absolute;
-        bottom: 280px;
+        bottom: 180px;
         right: 0;
         height: 400px;
         width: 800px;
         background-image: url("SVG/boat-01.svg");
         background-repeat: none;
+        @include breakpoint(small){
+            bottom:100px ;
+            height: 300px;
+            width: 600px;
+
+        }
     }
     &:after {
         content: " ";
         position: absolute;
-        bottom: 200px;
+        bottom: 100px;
         left: -155px;
         height: 400px;
         width: 800px;
         background-image: url("SVG/wave.svg");
         background-repeat: none;
+        @include breakpoint(small){
+            display: none;
+            bottom: 150px;
+            height: 200px;
+            width: 400px;       
+        }
     }
 }
 
