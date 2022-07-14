@@ -3,5 +3,5 @@
 
 body{
     background-color: $background-color;
-    background-image: linear-gradient($background-color, $primary,$secondary);
+    background-image: linear-gradient($background-color 45%, $primary,$secondary);
 }

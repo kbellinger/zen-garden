@@ -26,12 +26,6 @@ body > div {
 
 body {
     margin: 0;
-    p {
-        text-decoration: none;
-    }
-    a {
-        text-decoration: none;
-    }
 }
 
 .intro {
@@ -47,10 +41,6 @@ body {
 }
 
 .preamble {
-    // padding: .5em 10em 2em 4em;
-    // padding: .5em;
-    // margin-left: -20px;
-    // border-radius: 0 80% 0 0;
     grid-column: 1/3;
     width: 75%;
     // margin-inline: auto;
@@ -111,4 +101,5 @@ aside .wrapper {
     @include breakpoint(small){
         margin-top: -62em;
     }
+
 }
