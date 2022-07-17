@@ -32,7 +32,7 @@
         transform: translatex(-100px);
     }
     100% {
-        transform: translatex(1000px);
+        transform: translatex(2000px);
     }
 }
 @keyframes swim2 {
@@ -41,7 +41,7 @@
         transform: translatex(-100px);
     }
     100% {
-        transform: translatex(1500px);
+        transform: translatex(2000px);
     }
 }
 
@@ -93,7 +93,9 @@
 }
 
 footer {
-    background-color: none;
+    // background-color: #0e506e;
+    position: relative;
+
     &:after {
         content: "";
         position: absolute;
@@ -102,7 +104,7 @@ footer {
         background-image: url("SVG/sand-05.svg");
         background-repeat: none;
         left: -10px;
-        top: 2250px;
         z-index: -10;
+        // background-color: #0e506e;
     }
 }

@@ -41,11 +41,11 @@ body {
     padding: 1.5em 10em 1.5em 1.5em;
     border-radius: 0 80% 0 0;
     width: 50%;
-    @include breakpoint(small){
+    @include breakpoint(small) {
         background-color: transparent;
         text-align: center;
         width: 90%;
-        margin:auto auto 13em auto;
+        margin: auto auto 13em auto;
     }
 }
 
@@ -68,39 +68,33 @@ body {
         margin-bottom: var(--s3);
     }
 
-
-
     h3,
     p {
         animation: p-fade 3s ease-in;
     }
-    @include breakpoint(small){
-
+    @include breakpoint(small) {
         grid-row: 3;
         grid-column: 1;
     }
-    
 }
 
 @keyframes p-fade {
     0% {
-    opacity: 0;
-    transform: translateY(80%);
+        opacity: 0;
+        transform: translateY(80%);
     }
     20% {
-    opacity: 0;
+        opacity: 0;
     }
     50% {
-    opacity: 1;
-    transform: translateY(0%);
+        opacity: 1;
+        transform: translateY(0%);
     }
     100% {
-    opacity: 1;
-    transform: translateY(0%);
+        opacity: 1;
+        transform: translateY(0%);
     }
 }
-
-
 
 footer {
     grid-row: 6/7;

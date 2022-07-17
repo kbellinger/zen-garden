@@ -1,36 +1,44 @@
-@use '../variables' as *;
+@use "../variables" as *;
 
 .summary {
+    position: relative;
     &:before {
         content: " ";
         position: absolute;
-        bottom: 180px;
-        right: 0;
-        height: 400px;
-        width: 800px;
-        background-image: url("SVG/boat-01.svg");
+        bottom: -15px;
+        left: 1200px;
+        height: 300px;
+        width: 400px;
+        background-image: url("SVG/boat-02.svg");
         background-repeat: none;
-        @include breakpoint(small){
-            bottom:100px ;
+        @include breakpoint(small) {
+            bottom: 100px;
             height: 300px;
             width: 600px;
+        }
+        animation: rock 8s ease infinite;
+    }
 
+    @keyframes rock {
+        50% {
+            -webkit-transform: rotate(-5deg) translateY(-5px);
         }
     }
+
     &:after {
         content: " ";
         position: absolute;
-        bottom: 100px;
-        left: -155px;
-        height: 400px;
-        min-width: 800px;
-        background-image: url("SVG/wave.svg");
+        bottom: -145px;
+        left: 0;
+        height: 500px;
+        width: 2000px;
+        background-image: url("SVG/waves-01.svg");
         background-repeat: none;
-        @include breakpoint(small){
+        @include breakpoint(small) {
             display: none;
             bottom: 150px;
             height: 200px;
-            width: 400px;       
+            width: 400px;
         }
     }
 }
